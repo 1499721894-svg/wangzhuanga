@@ -207,7 +207,7 @@ export default function Home() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Heart className="w-8 h-8 text-pink-500 fill-pink-500" />
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
+            <h1 className="text-2xl font-bold text-purple-600">
               哄哄模拟器
             </h1>
           </Link>
@@ -268,7 +268,7 @@ export default function Home() {
             <Gamepad2 className="w-4 h-4 text-pink-500" />
             <span className="text-sm text-pink-600 dark:text-pink-300">恋爱修炼场</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-pink-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-purple-600">
             哄人技巧大挑战
           </h2>
           <p className="text-gray-600 dark:text-gray-300 text-lg max-w-2xl mx-auto">
